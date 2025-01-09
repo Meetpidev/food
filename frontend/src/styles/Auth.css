@@ -1,0 +1,23 @@
+/* src/styles/Auth.css */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 10px;
+}
+
+.auth-container p {
+    text-align: center;
+}

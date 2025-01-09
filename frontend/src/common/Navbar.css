@@ -1,0 +1,77 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #1a1a2e, #16213e); /* Gradient background */
+    padding: 1rem 2rem; /* Increased padding for spacious look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    position: relative; /* Position for pseudo-elements */
+}
+
+.logo img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%; /* Circular logo */
+    transition: transform 0.3s ease; /* Animation on hover */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem; /* Spacing between links */
+}
+
+.nav-link {
+    color: #ecf0f1; /* Light text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text for emphasis */
+    position: relative; /* Position for pseudo-element */
+    padding: 0.5rem 0; /* Padding for better click area */
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px; /* Position below the link */
+    width: 0%;
+    height: 2px; /* Thickness of the underline */
+    background-color: #3498db; /* Underline color */
+    transition: width 0.3s ease, left 0.3s ease; /* Smooth transition for underline */
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%; 
+    left: 0;
+}
+
+.nav-link:hover {
+    color: #3498db; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start; /* Align items to the start */
+        padding: 1rem; /* Reduce padding */
+        box-shadow: none; /* Remove shadow on mobile for simplicity */
+        background-color: #16213e; /* Solid background on mobile */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically */
+        gap: 1rem; /* Reduced spacing between links */
+        margin-top: 1rem; /* Space above links */
+        width: 100%; /* Full width for links */
+        text-align: left; /* Align text to the left */
+        padding-left: 0; /* Remove default padding on list items */
+    }
+}
