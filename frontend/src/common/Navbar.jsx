@@ -6,8 +6,9 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <div className="logo">
-                <img src={img} alt="Logo" style={{height: '4rem', width: '4rem'}}/>
+            <div className="logo" style={{display: 'flex'}}>
+                <img src={img} alt="Logo" style={{ transform: 'transLateY(.8rem)' }} />
+                <p style={{color: 'white', transform: 'transLateY(-.2rem)', marginLeft: '1rem', fontSize: '1.5rem'}}>Food Recovery Network</p>
             </div>
             <ul className="nav-links">
                 <li>

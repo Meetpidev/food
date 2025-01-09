@@ -1,92 +1,85 @@
-/* Home.css */
 
 .home-container {
-    padding: 2rem; /* Padding around the content */
-    max-width: 800px; /* Max width for better readability */
-    margin: auto; /* Center the container */
-    background-color: #f9f9f9; /* Light background color */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 2rem;
+    max-width: 800px; 
+    margin: auto; 
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .title {
-    text-align: center; /* Center the title */
-    color: #2c3e50; /* Dark color for the title */
-    font-size: 2.5rem; /* Larger font size for emphasis */
+    text-align: center; 
+    color: #2c3e50; 
+    font-size: 2.5rem; 
 }
 
 .description {
-    text-align: justify; /* Justify text for better readability */
-    color: #34495e; /* Darker text color */
-    margin-bottom: 1.5rem; /* Space below description */
+    text-align: justify; 
+    color: #34495e;
+    margin-bottom: 1.5rem;
 }
 
 .benefits-list,
 .tips-list {
-    list-style-type: disc; /* Bullet points for lists */
-    padding-left: 20px; /* Indent lists */
+    list-style-type: disc; 
+    padding-left: 20px; 
 }
 
 .benefits-list li,
 .tips-list li {
-    margin-bottom: 0.5rem; /* Space between list items */
+    margin-bottom: 0.5rem;
 }
 
 .full-width-image {
-    width: 100%; /* Make the image full width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Rounded corners for the image */
-    margin-bottom: 1.5rem; /* Space below image */
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+    margin-bottom: 1.5rem; 
 }
 
 .quote {
-    font-style: italic; /* Italic style for quote */
-    color: #3498db; /* Color for quote text */
-    text-align: center; /* Center align the quote */
-    margin: 1.5rem 0; /* Space above and below quote */
+    font-style: italic; 
+    color: #f80101; 
+    text-align: center; 
+    margin: 1.5rem 0; 
+    font-weight: bolder;
 }
 
 .conclusion {
-    text-align: justify; /* Justify text for better readability */
+    text-align: justify; 
 }
-/* Home.css */
 
-/* Existing styles... */
-
-
-/* Home.css */
-
-/* Existing styles... */
 
 .footer {
-    background-color: #34495e; /* Dark background for footer */
-    color: white; /* White text color */
-    padding: 2rem; /* Padding around footer */
-    margin-top: 2rem; /* Space above footer */
+    background-color: #34495e; 
+    color: white; 
+    padding: 2rem;
+    margin-top: 2rem; 
 }
 
 .footer-content {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between columns */
-    flex-wrap: wrap; /* Allow wrapping of columns on smaller screens */
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
 }
 
 .footer-column {
-    flex: 1; /* Each column takes equal space */
-    min-width: 200px; /* Minimum width for columns */
-    margin-right: 20px; /* Space between columns */
+    flex: 1; 
+    min-width: 200px; 
+    margin-right: 20px; 
 }
 
 .footer-column h3 {
-    margin-top: 0; /* Remove top margin from headings */
+    margin-top: 0; 
 }
 
 .footer-bottom {
-    text-align: center; /* Center align copyright text */
-    margin-top: 1rem; /* Space above copyright text */
+    text-align: center; 
+    margin-top: 1rem; 
 }
 
 
 .footer-content p {
-    margin: 0.5rem 0; /* Space between paragraphs */
+    margin: 0.5rem 0; 
 }

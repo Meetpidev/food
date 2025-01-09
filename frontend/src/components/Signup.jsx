@@ -32,11 +32,11 @@ export default function AuthForm() {
       return;
     }
 
-    console.log('Sign Up Data:', { ...input, userType }); // Log signup data
+    console.log('Sign Up Data:', { ...input, userType }); 
     if (isSignup) {
-      alert("Signup successful!"); // Simulate signup success
+      alert("Signup successful!"); 
     } else {
-      alert("Login successful!"); // Simulate login success
+      alert("Login successful!");
     }
 
     // Clear input fields after submission
